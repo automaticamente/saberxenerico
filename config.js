@@ -11,11 +11,11 @@ module.exports = {
     },
     randomStatus: (title) => {
         return _.sample([
-            'A que non sabias que...',
+            'A que non sabías que...',
             `Hoxe non vas ir durmir sen saber algo de ${title}`,
             `É o momento de falar de ${title}`,
-            `Nunca se fala demasiado de ${title}`,
-            'Apunta isto, pode sairche nunha pregunta do Trivial'
+            `Nunca se fala suficiente de ${title}`,
+            'Apunta isto, pode saírche nunha pregunta do Trivial'
         ]);
     }
 };
