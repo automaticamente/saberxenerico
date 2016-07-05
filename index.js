@@ -47,9 +47,8 @@ function bot() {
                 .replace(/<\/b>/gi, '</b></span>');
 
             return {
-                text: `<span size="50000">${formattedText}</span>`,
+                text: `<span fgcolor="${fill}" size="50000">${formattedText}</span>`,
                 background,
-                fill,
                 size: '900x',
                 font: 'Georgia'
             };
